@@ -29,7 +29,7 @@ export default function Calculator() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-300 via-pink-300 to-blue-300">
       <div className="w-full max-w-sm p-6 bg-white rounded-2xl shadow-2xl">
-        <div className="text-right text-3xl mb-6 h-16 border border-gray-300 rounded-lg p-4 bg-gray-100">
+        <div className="text-right text-3xl mb-6 h-16 border border-gray-300 rounded-lg p-4 bg-gray-100 overflow-x-auto whitespace-nowrap">
           {input || "0"}
         </div>
         <div className="grid grid-cols-4 gap-3">
